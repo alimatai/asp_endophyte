@@ -26,8 +26,8 @@ with open(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/deepimpact_a
 	lp.write("\n% Declare Annotations\n\n")
 	for i in range(facts.shape[0]):
 		for j in range(facts.shape[1]):
-			value = facts.iloc[i, j]
+			value = facts.iloc[i, j]			
 			if value not in [0, nan] and "PWY" in facts.columns[j]:
-				lp.write(f"""annotation({facts.index[i].lower().replace(" ", "")}, "{facts.columns[j]}", {value}).\n""")
+				lp.write(f"""annotation({facts.index[i].lower().replace(" ", "")}, "{facts.columns[j]}", {value[0]}).\n""")
 
 	lp.write("\n")
