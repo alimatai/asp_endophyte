@@ -1,0 +1,447 @@
+% Declare pathways
+
+pwy("PWY-6784").
+pwy("PWY-6788").
+pwy("PWY-6717").
+pwy("PWY-7248").
+pwy("PWY-6807").
+pwy("PWY-581").
+pwy("PWY-3161").
+pwy("PWY-5025").
+pwy("PWY-5026").
+pwy("TRPIAACAT-PWY").
+pwy("PWY-8321").
+pwy("PWY-735").
+pwy("PWY-6183").
+pwy("PWY-6640").
+
+% Declare Models
+
+species(alternaria).
+species(aspergillaceae).
+species(aspergillus).
+species(bionectriaceae).
+species(botrytis).
+species(chaetomiaceae).
+species(cordycipitaceae).
+species(debaryomycetaceae).
+species(didymellaceae).
+species(didymosphaeriaceae).
+species(fusarium).
+species(fusariumoxysporum).
+species(linnemannia).
+species(mortierella).
+species(mortierellaceae).
+species(mucor).
+species(mucoraceae).
+species(mycosphaerellaceae).
+species(nectriaceae).
+species(penicillium).
+species(plectosphaerellaceae).
+species(pleosporaceae).
+species(polyporaceae).
+species(pseudeurotiaceae).
+species(pseudogymnoascus).
+species(talaromyces).
+species(trichoderma).
+species(trichosporonaceae).
+
+% Declare Annotations
+
+annotation(alternaria, "PWY-6784", 2/3).
+annotation(alternaria, "PWY-6788", 3/3).
+annotation(alternaria, "PWY-6717", 2/2).
+annotation(alternaria, "PWY-7248", 3/5).
+annotation(alternaria, "PWY-6807", 7/8).
+annotation(alternaria, "PWY-581", 4/12).
+annotation(alternaria, "PWY-3161", 1/2).
+annotation(alternaria, "PWY-5025", 1/2).
+annotation(alternaria, "PWY-5026", 1/1).
+annotation(alternaria, "TRPIAACAT-PWY", 1/3).
+annotation(alternaria, "PWY-735", 1/19).
+annotation(alternaria, "PWY-6183", 1/1).
+annotation(aspergillaceae, "PWY-6784", 2/3).
+annotation(aspergillaceae, "PWY-6788", 3/3).
+annotation(aspergillaceae, "PWY-6717", 2/2).
+annotation(aspergillaceae, "PWY-7248", 3/5).
+annotation(aspergillaceae, "PWY-6807", 5/8).
+annotation(aspergillaceae, "PWY-581", 4/12).
+annotation(aspergillaceae, "PWY-3161", 1/2).
+annotation(aspergillaceae, "PWY-5025", 1/2).
+annotation(aspergillaceae, "PWY-5026", 1/1).
+annotation(aspergillaceae, "TRPIAACAT-PWY", 1/3).
+annotation(aspergillaceae, "PWY-735", 1/19).
+annotation(aspergillaceae, "PWY-6183", 1/1).
+annotation(aspergillus, "PWY-6784", 2/3).
+annotation(aspergillus, "PWY-6788", 3/3).
+annotation(aspergillus, "PWY-6717", 2/2).
+annotation(aspergillus, "PWY-7248", 3/5).
+annotation(aspergillus, "PWY-6807", 5/8).
+annotation(aspergillus, "PWY-581", 4/12).
+annotation(aspergillus, "PWY-3161", 1/2).
+annotation(aspergillus, "PWY-5025", 1/2).
+annotation(aspergillus, "PWY-5026", 1/1).
+annotation(aspergillus, "TRPIAACAT-PWY", 1/3).
+annotation(aspergillus, "PWY-8321", 1/3).
+annotation(aspergillus, "PWY-735", 1/19).
+annotation(aspergillus, "PWY-6183", 1/1).
+annotation(bionectriaceae, "PWY-6784", 2/3).
+annotation(bionectriaceae, "PWY-6788", 3/3).
+annotation(bionectriaceae, "PWY-6717", 2/2).
+annotation(bionectriaceae, "PWY-7248", 3/5).
+annotation(bionectriaceae, "PWY-6807", 7/8).
+annotation(bionectriaceae, "PWY-581", 4/12).
+annotation(bionectriaceae, "PWY-3161", 1/2).
+annotation(bionectriaceae, "PWY-5025", 1/2).
+annotation(bionectriaceae, "PWY-5026", 1/1).
+annotation(bionectriaceae, "TRPIAACAT-PWY", 1/3).
+annotation(bionectriaceae, "PWY-8321", 1/3).
+annotation(bionectriaceae, "PWY-6183", 1/1).
+annotation(bionectriaceae, "PWY-6640", 1/5).
+annotation(botrytis, "PWY-6784", 2/3).
+annotation(botrytis, "PWY-6788", 3/3).
+annotation(botrytis, "PWY-6717", 2/2).
+annotation(botrytis, "PWY-7248", 3/5).
+annotation(botrytis, "PWY-6807", 7/8).
+annotation(botrytis, "PWY-581", 4/12).
+annotation(botrytis, "PWY-3161", 1/2).
+annotation(botrytis, "PWY-5025", 1/2).
+annotation(botrytis, "PWY-5026", 1/1).
+annotation(botrytis, "TRPIAACAT-PWY", 1/3).
+annotation(botrytis, "PWY-8321", 1/3).
+annotation(botrytis, "PWY-735", 1/19).
+annotation(botrytis, "PWY-6183", 1/1).
+annotation(botrytis, "PWY-6640", 1/5).
+annotation(chaetomiaceae, "PWY-6784", 2/3).
+annotation(chaetomiaceae, "PWY-6788", 3/3).
+annotation(chaetomiaceae, "PWY-6717", 2/2).
+annotation(chaetomiaceae, "PWY-7248", 2/5).
+annotation(chaetomiaceae, "PWY-6807", 5/8).
+annotation(chaetomiaceae, "PWY-581", 4/12).
+annotation(chaetomiaceae, "PWY-3161", 1/2).
+annotation(chaetomiaceae, "PWY-5025", 1/2).
+annotation(chaetomiaceae, "PWY-5026", 1/1).
+annotation(chaetomiaceae, "TRPIAACAT-PWY", 1/3).
+annotation(chaetomiaceae, "PWY-735", 1/19).
+annotation(chaetomiaceae, "PWY-6183", 1/1).
+annotation(cordycipitaceae, "PWY-6784", 1/3).
+annotation(cordycipitaceae, "PWY-6788", 2/3).
+annotation(cordycipitaceae, "PWY-7248", 2/5).
+annotation(cordycipitaceae, "PWY-6807", 5/8).
+annotation(cordycipitaceae, "PWY-581", 4/12).
+annotation(cordycipitaceae, "PWY-3161", 1/2).
+annotation(cordycipitaceae, "PWY-5025", 1/2).
+annotation(cordycipitaceae, "PWY-5026", 1/1).
+annotation(cordycipitaceae, "TRPIAACAT-PWY", 1/3).
+annotation(cordycipitaceae, "PWY-735", 1/19).
+annotation(cordycipitaceae, "PWY-6183", 1/1).
+annotation(cordycipitaceae, "PWY-6640", 1/5).
+annotation(debaryomycetaceae, "PWY-6784", 1/3).
+annotation(debaryomycetaceae, "PWY-6788", 1/3).
+annotation(debaryomycetaceae, "PWY-581", 2/12).
+annotation(debaryomycetaceae, "PWY-3161", 1/2).
+annotation(debaryomycetaceae, "PWY-5025", 1/2).
+annotation(debaryomycetaceae, "TRPIAACAT-PWY", 1/3).
+annotation(didymellaceae, "PWY-6784", 2/3).
+annotation(didymellaceae, "PWY-6788", 3/3).
+annotation(didymellaceae, "PWY-6717", 2/2).
+annotation(didymellaceae, "PWY-7248", 3/5).
+annotation(didymellaceae, "PWY-6807", 7/8).
+annotation(didymellaceae, "PWY-581", 4/12).
+annotation(didymellaceae, "PWY-3161", 1/2).
+annotation(didymellaceae, "PWY-5025", 1/2).
+annotation(didymellaceae, "PWY-5026", 1/1).
+annotation(didymellaceae, "TRPIAACAT-PWY", 1/3).
+annotation(didymellaceae, "PWY-735", 1/19).
+annotation(didymellaceae, "PWY-6183", 1/1).
+annotation(didymosphaeriaceae, "PWY-6784", 2/3).
+annotation(didymosphaeriaceae, "PWY-6788", 3/3).
+annotation(didymosphaeriaceae, "PWY-6717", 2/2).
+annotation(didymosphaeriaceae, "PWY-7248", 3/5).
+annotation(didymosphaeriaceae, "PWY-6807", 7/8).
+annotation(didymosphaeriaceae, "PWY-581", 4/12).
+annotation(didymosphaeriaceae, "PWY-3161", 1/2).
+annotation(didymosphaeriaceae, "PWY-5025", 1/2).
+annotation(didymosphaeriaceae, "PWY-5026", 1/1).
+annotation(didymosphaeriaceae, "TRPIAACAT-PWY", 1/3).
+annotation(didymosphaeriaceae, "PWY-735", 1/19).
+annotation(didymosphaeriaceae, "PWY-6183", 1/1).
+annotation(didymosphaeriaceae, "PWY-6640", 1/5).
+annotation(fusarium, "PWY-6784", 2/3).
+annotation(fusarium, "PWY-6788", 3/3).
+annotation(fusarium, "PWY-6717", 2/2).
+annotation(fusarium, "PWY-7248", 3/5).
+annotation(fusarium, "PWY-6807", 7/8).
+annotation(fusarium, "PWY-581", 4/12).
+annotation(fusarium, "PWY-3161", 1/2).
+annotation(fusarium, "PWY-5025", 1/2).
+annotation(fusarium, "PWY-5026", 1/1).
+annotation(fusarium, "TRPIAACAT-PWY", 1/3).
+annotation(fusarium, "PWY-735", 1/19).
+annotation(fusarium, "PWY-6183", 1/1).
+annotation(fusarium, "PWY-6640", 1/5).
+annotation(fusariumoxysporum, "PWY-6784", 2/3).
+annotation(fusariumoxysporum, "PWY-6788", 3/3).
+annotation(fusariumoxysporum, "PWY-6717", 2/2).
+annotation(fusariumoxysporum, "PWY-7248", 3/5).
+annotation(fusariumoxysporum, "PWY-6807", 7/8).
+annotation(fusariumoxysporum, "PWY-581", 4/12).
+annotation(fusariumoxysporum, "PWY-3161", 1/2).
+annotation(fusariumoxysporum, "PWY-5025", 1/2).
+annotation(fusariumoxysporum, "PWY-5026", 1/1).
+annotation(fusariumoxysporum, "TRPIAACAT-PWY", 1/3).
+annotation(fusariumoxysporum, "PWY-735", 1/19).
+annotation(fusariumoxysporum, "PWY-6183", 1/1).
+annotation(fusariumoxysporum, "PWY-6640", 1/5).
+annotation(linnemannia, "PWY-6788", 2/3).
+annotation(linnemannia, "PWY-7248", 2/5).
+annotation(linnemannia, "PWY-6807", 5/8).
+annotation(linnemannia, "PWY-581", 2/12).
+annotation(linnemannia, "PWY-3161", 1/2).
+annotation(linnemannia, "PWY-5025", 1/2).
+annotation(linnemannia, "TRPIAACAT-PWY", 1/3).
+annotation(linnemannia, "PWY-6183", 1/1).
+annotation(mortierella, "PWY-6788", 2/3).
+annotation(mortierella, "PWY-7248", 2/5).
+annotation(mortierella, "PWY-6807", 5/8).
+annotation(mortierella, "PWY-581", 2/12).
+annotation(mortierella, "PWY-3161", 1/2).
+annotation(mortierella, "PWY-5025", 1/2).
+annotation(mortierella, "TRPIAACAT-PWY", 1/3).
+annotation(mortierella, "PWY-6183", 1/1).
+annotation(mortierellaceae, "PWY-6788", 2/3).
+annotation(mortierellaceae, "PWY-7248", 2/5).
+annotation(mortierellaceae, "PWY-6807", 5/8).
+annotation(mortierellaceae, "PWY-581", 2/12).
+annotation(mortierellaceae, "PWY-3161", 1/2).
+annotation(mortierellaceae, "PWY-5025", 1/2).
+annotation(mortierellaceae, "TRPIAACAT-PWY", 1/3).
+annotation(mortierellaceae, "PWY-6183", 1/1).
+annotation(mucor, "PWY-6788", 2/3).
+annotation(mucor, "PWY-7248", 2/5).
+annotation(mucor, "PWY-6807", 5/8).
+annotation(mucor, "PWY-581", 2/12).
+annotation(mucor, "PWY-3161", 1/2).
+annotation(mucor, "PWY-5025", 1/2).
+annotation(mucor, "TRPIAACAT-PWY", 1/3).
+annotation(mucor, "PWY-6640", 1/5).
+annotation(mucoraceae, "PWY-6788", 2/3).
+annotation(mucoraceae, "PWY-7248", 2/5).
+annotation(mucoraceae, "PWY-6807", 5/8).
+annotation(mucoraceae, "PWY-581", 2/12).
+annotation(mucoraceae, "PWY-3161", 1/2).
+annotation(mucoraceae, "PWY-5025", 1/2).
+annotation(mucoraceae, "TRPIAACAT-PWY", 1/3).
+annotation(mucoraceae, "PWY-6640", 1/5).
+annotation(mycosphaerellaceae, "PWY-6784", 2/3).
+annotation(mycosphaerellaceae, "PWY-6788", 3/3).
+annotation(mycosphaerellaceae, "PWY-6717", 2/2).
+annotation(mycosphaerellaceae, "PWY-7248", 3/5).
+annotation(mycosphaerellaceae, "PWY-6807", 7/8).
+annotation(mycosphaerellaceae, "PWY-581", 4/12).
+annotation(mycosphaerellaceae, "PWY-3161", 1/2).
+annotation(mycosphaerellaceae, "PWY-5025", 1/2).
+annotation(mycosphaerellaceae, "PWY-5026", 1/1).
+annotation(mycosphaerellaceae, "TRPIAACAT-PWY", 1/3).
+annotation(mycosphaerellaceae, "PWY-735", 1/19).
+annotation(mycosphaerellaceae, "PWY-6183", 1/1).
+annotation(nectriaceae, "PWY-6784", 2/3).
+annotation(nectriaceae, "PWY-6788", 3/3).
+annotation(nectriaceae, "PWY-6717", 2/2).
+annotation(nectriaceae, "PWY-7248", 3/5).
+annotation(nectriaceae, "PWY-6807", 7/8).
+annotation(nectriaceae, "PWY-581", 4/12).
+annotation(nectriaceae, "PWY-3161", 1/2).
+annotation(nectriaceae, "PWY-5025", 1/2).
+annotation(nectriaceae, "PWY-5026", 1/1).
+annotation(nectriaceae, "TRPIAACAT-PWY", 1/3).
+annotation(nectriaceae, "PWY-735", 1/19).
+annotation(nectriaceae, "PWY-6183", 1/1).
+annotation(nectriaceae, "PWY-6640", 1/5).
+annotation(penicillium, "PWY-6784", 2/3).
+annotation(penicillium, "PWY-6788", 3/3).
+annotation(penicillium, "PWY-6717", 2/2).
+annotation(penicillium, "PWY-7248", 3/5).
+annotation(penicillium, "PWY-6807", 5/8).
+annotation(penicillium, "PWY-581", 4/12).
+annotation(penicillium, "PWY-3161", 1/2).
+annotation(penicillium, "PWY-5025", 1/2).
+annotation(penicillium, "PWY-5026", 1/1).
+annotation(penicillium, "TRPIAACAT-PWY", 1/3).
+annotation(penicillium, "PWY-735", 1/19).
+annotation(penicillium, "PWY-6183", 1/1).
+annotation(penicillium, "PWY-6640", 1/5).
+annotation(plectosphaerellaceae, "PWY-6784", 2/3).
+annotation(plectosphaerellaceae, "PWY-6788", 3/3).
+annotation(plectosphaerellaceae, "PWY-6717", 1/2).
+annotation(plectosphaerellaceae, "PWY-7248", 3/5).
+annotation(plectosphaerellaceae, "PWY-6807", 5/8).
+annotation(plectosphaerellaceae, "PWY-581", 3/12).
+annotation(plectosphaerellaceae, "PWY-3161", 1/2).
+annotation(plectosphaerellaceae, "PWY-5025", 1/2).
+annotation(plectosphaerellaceae, "PWY-5026", 1/1).
+annotation(plectosphaerellaceae, "TRPIAACAT-PWY", 1/3).
+annotation(plectosphaerellaceae, "PWY-735", 1/19).
+annotation(plectosphaerellaceae, "PWY-6183", 1/1).
+annotation(plectosphaerellaceae, "PWY-6640", 1/5).
+annotation(pleosporaceae, "PWY-6784", 2/3).
+annotation(pleosporaceae, "PWY-6788", 3/3).
+annotation(pleosporaceae, "PWY-6717", 2/2).
+annotation(pleosporaceae, "PWY-7248", 3/5).
+annotation(pleosporaceae, "PWY-6807", 7/8).
+annotation(pleosporaceae, "PWY-581", 4/12).
+annotation(pleosporaceae, "PWY-3161", 1/2).
+annotation(pleosporaceae, "PWY-5025", 1/2).
+annotation(pleosporaceae, "PWY-5026", 1/1).
+annotation(pleosporaceae, "TRPIAACAT-PWY", 1/3).
+annotation(pleosporaceae, "PWY-735", 1/19).
+annotation(pleosporaceae, "PWY-6183", 1/1).
+annotation(pleosporaceae, "PWY-6640", 1/5).
+annotation(polyporaceae, "PWY-6784", 2/3).
+annotation(polyporaceae, "PWY-6788", 3/3).
+annotation(polyporaceae, "PWY-6717", 2/2).
+annotation(polyporaceae, "PWY-7248", 3/5).
+annotation(polyporaceae, "PWY-6807", 3/8).
+annotation(polyporaceae, "PWY-581", 4/12).
+annotation(polyporaceae, "PWY-3161", 1/2).
+annotation(polyporaceae, "PWY-5025", 1/2).
+annotation(polyporaceae, "PWY-5026", 1/1).
+annotation(polyporaceae, "TRPIAACAT-PWY", 1/3).
+annotation(polyporaceae, "PWY-735", 3/19).
+annotation(polyporaceae, "PWY-6183", 1/1).
+annotation(pseudeurotiaceae, "PWY-6784", 2/3).
+annotation(pseudeurotiaceae, "PWY-6788", 3/3).
+annotation(pseudeurotiaceae, "PWY-6717", 1/2).
+annotation(pseudeurotiaceae, "PWY-7248", 3/5).
+annotation(pseudeurotiaceae, "PWY-6807", 7/8).
+annotation(pseudeurotiaceae, "PWY-581", 4/12).
+annotation(pseudeurotiaceae, "PWY-3161", 1/2).
+annotation(pseudeurotiaceae, "PWY-5025", 1/2).
+annotation(pseudeurotiaceae, "PWY-5026", 1/1).
+annotation(pseudeurotiaceae, "TRPIAACAT-PWY", 1/3).
+annotation(pseudeurotiaceae, "PWY-735", 1/19).
+annotation(pseudeurotiaceae, "PWY-6183", 1/1).
+annotation(pseudogymnoascus, "PWY-6784", 2/3).
+annotation(pseudogymnoascus, "PWY-6788", 3/3).
+annotation(pseudogymnoascus, "PWY-6717", 1/2).
+annotation(pseudogymnoascus, "PWY-7248", 3/5).
+annotation(pseudogymnoascus, "PWY-6807", 7/8).
+annotation(pseudogymnoascus, "PWY-581", 4/12).
+annotation(pseudogymnoascus, "PWY-3161", 1/2).
+annotation(pseudogymnoascus, "PWY-5025", 1/2).
+annotation(pseudogymnoascus, "PWY-5026", 1/1).
+annotation(pseudogymnoascus, "TRPIAACAT-PWY", 1/3).
+annotation(pseudogymnoascus, "PWY-735", 1/19).
+annotation(pseudogymnoascus, "PWY-6183", 1/1).
+annotation(talaromyces, "PWY-6784", 2/3).
+annotation(talaromyces, "PWY-6788", 3/3).
+annotation(talaromyces, "PWY-6717", 2/2).
+annotation(talaromyces, "PWY-7248", 3/5).
+annotation(talaromyces, "PWY-6807", 5/8).
+annotation(talaromyces, "PWY-581", 4/12).
+annotation(talaromyces, "PWY-3161", 1/2).
+annotation(talaromyces, "PWY-5025", 1/2).
+annotation(talaromyces, "PWY-5026", 1/1).
+annotation(talaromyces, "TRPIAACAT-PWY", 1/3).
+annotation(talaromyces, "PWY-735", 3/19).
+annotation(talaromyces, "PWY-6183", 1/1).
+annotation(talaromyces, "PWY-6640", 1/5).
+annotation(trichoderma, "PWY-6784", 2/3).
+annotation(trichoderma, "PWY-6788", 3/3).
+annotation(trichoderma, "PWY-6717", 2/2).
+annotation(trichoderma, "PWY-7248", 3/5).
+annotation(trichoderma, "PWY-6807", 7/8).
+annotation(trichoderma, "PWY-581", 4/12).
+annotation(trichoderma, "PWY-3161", 1/2).
+annotation(trichoderma, "PWY-5025", 1/2).
+annotation(trichoderma, "PWY-5026", 1/1).
+annotation(trichoderma, "TRPIAACAT-PWY", 1/3).
+annotation(trichoderma, "PWY-735", 1/19).
+annotation(trichoderma, "PWY-6183", 1/1).
+annotation(trichosporonaceae, "PWY-6788", 2/3).
+annotation(trichosporonaceae, "PWY-6807", 5/8).
+annotation(trichosporonaceae, "PWY-581", 4/12).
+annotation(trichosporonaceae, "PWY-3161", 1/2).
+annotation(trichosporonaceae, "PWY-5025", 1/2).
+annotation(trichosporonaceae, "PWY-5026", 1/1).
+annotation(trichosporonaceae, "TRPIAACAT-PWY", 1/3).
+annotation(trichosporonaceae, "PWY-6183", 1/1).
+
+% Definition des selectedSpecies
+% ==============================
+
+% Il existe des selected species entre 1 et le nombre maximal d'espèces = une solution satisfiable est constituee d'un sous-ensemble de modèles
+1{ selectedSpecies(M) : species(M) }.
+
+% Commentaires :
+
+% En fait ça fait ça et ça "pioche" dedans:
+% 1{ selectedSpecies(alternaria); selectedSpecies(aspergillaceae); selectedSpecies(aspergillus)  }3.
+
+% Autres exemples :
+% 0{ selectedSpecies(M) : species(M) }3. % Entre 0 et 3
+% 1{ selectedSpecies(M) : species(M) }1. % Une seule espèce
+% K{ selectedSpecies(M) : species(M) }M.
+
+% Regles
+% ======
+
+% La règle (à gauche) est vraie si il existe (à droite) une espèce M qui est une selectedSpecies, species, avec une annotation du pathway
+
+celluloseRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6784",_).    % remplacer _ par N et mettre N>2
+celluloseRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6788",_).
+
+celluloseXylanRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6717", _).
+
+pectinRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-7248",_).
+
+galactanRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6807",_).
+
+auxineRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-581",_).
+auxineRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-3161",_).
+auxineRule3(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-5025",_).
+auxineRule4(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-5026",_).
+auxineRule5(M) :- selectedSpecies(M), species(M) , annotation(M,"TRPIAACAT-PWY",_).
+
+acidesalicyliqueRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6406",_).
+acidesalicyliqueRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-8321",_).
+
+acidejasmoniqueRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-735",_).
+
+% Les "et"
+% --------
+
+:- 0{celluloseRule1(M):selectedSpecies(M)}0.    % il est faux d'avoir aucune selected species avec la celluloseRule1.
+:- 0{celluloseRule2(M):selectedSpecies(M)}0.    % il est faux d'avoir aucune selected species avec la celluloseRule2.
+
+:- 0{celluloseXylanRule(M):selectedSpecies(M)}0.    % etc
+
+:- 0{pectinRule(M):selectedSpecies(M)}0.
+
+:- 0{galactanRule1(M):selectedSpecies(M)}0.
+
+:- 0{auxineRule1(M):selectedSpecies(M)}0.
+:- 0{auxineRule4(M):selectedSpecies(M)}0.
+
+:- 0{acidesalicyliqueRule1(M):selectedSpecies(M)}0.
+:- 0{acidesalicyliqueRule2(M):selectedSpecies(M)}0.
+
+:- 0{acidejasmoniqueRule(M):selectedSpecies(M)}0.
+
+% Les "ou"
+% --------
+
+ % il est faux d'avoir aucune selectedSpecies avec la auxineRule2 ou la auxineRule3 ou la auxineRule5
+:- 0{auxineRule2(Tata):selectedSpecies(Tata); auxineRule3(Toto):selectedSpecies(Toto); auxineRule5(Toto):selectedSpecies(Tutu)}0. 
+
+% On veut minimiser le nombre de selectedSpecies sélectionnées
+% ============================================================
+
+#minimize { 1,M : selectedSpecies(M) }.
+
+% Affichage
+% =========
+
+#show selectedSpecies/1.
+
+% --op-mode=optN
