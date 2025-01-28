@@ -10,6 +10,7 @@ pwy("PWY-3161").
 pwy("PWY-5025").
 pwy("PWY-5026").
 pwy("TRPIAACAT-PWY").
+pwy("PWY-6406").
 pwy("PWY-8321").
 pwy("PWY-735").
 pwy("PWY-6183").
@@ -82,6 +83,7 @@ annotation(aspergillus, "PWY-3161", 1).
 annotation(aspergillus, "PWY-5025", 1).
 annotation(aspergillus, "PWY-5026", 1).
 annotation(aspergillus, "TRPIAACAT-PWY", 1).
+annotation(aspergillus, "PWY-6406", 2).
 annotation(aspergillus, "PWY-8321", 1).
 annotation(aspergillus, "PWY-735", 1).
 annotation(aspergillus, "PWY-6183", 1).
@@ -95,6 +97,7 @@ annotation(bionectriaceae, "PWY-3161", 1).
 annotation(bionectriaceae, "PWY-5025", 1).
 annotation(bionectriaceae, "PWY-5026", 1).
 annotation(bionectriaceae, "TRPIAACAT-PWY", 1).
+annotation(bionectriaceae, "PWY-6406", 1).
 annotation(bionectriaceae, "PWY-8321", 1).
 annotation(bionectriaceae, "PWY-6183", 1).
 annotation(bionectriaceae, "PWY-6640", 1).
@@ -108,6 +111,7 @@ annotation(botrytis, "PWY-3161", 1).
 annotation(botrytis, "PWY-5025", 1).
 annotation(botrytis, "PWY-5026", 1).
 annotation(botrytis, "TRPIAACAT-PWY", 1).
+annotation(botrytis, "PWY-6406", 1).
 annotation(botrytis, "PWY-8321", 1).
 annotation(botrytis, "PWY-735", 1).
 annotation(botrytis, "PWY-6183", 1).
@@ -388,25 +392,25 @@ annotation(trichosporonaceae, "PWY-6183", 1).
 
 % La règle (à gauche) est vraie si il existe (à droite) une espèce M qui est une selectedSpecies, species, avec une annotation du pathway
 
-celluloseRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6784",_).    % remplacer _ par N et mettre N>2
-celluloseRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6788",_).
+celluloseRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6784", N), N>1.
+celluloseRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6788", N), N>2.
 
-celluloseXylanRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6717", _).
+celluloseXylanRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6717", N), N>1.
 
-pectinRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-7248",_).
+pectinRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-7248", N), N>2.
 
-galactanRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6807",_).
+galactanRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6807", N), N>5.
 
-auxineRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-581",_).
-auxineRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-3161",_).
-auxineRule3(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-5025",_).
-auxineRule4(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-5026",_).
-auxineRule5(M) :- selectedSpecies(M), species(M) , annotation(M,"TRPIAACAT-PWY",_).
+auxineRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-581", N), N>3.
+auxineRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-3161", _).
+auxineRule3(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-5025", _).
+auxineRule4(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-5026", N), N=1.
+auxineRule5(M) :- selectedSpecies(M), species(M) , annotation(M,"TRPIAACAT-PWY", _).
 
-acidesalicyliqueRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6406",_).
-acidesalicyliqueRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-8321",_).
+acidesalicyliqueRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6406", N), N>1. % une seule species, Aspergillus
+acidesalicyliqueRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-8321", _).      % Trois espèces
 
-acidejasmoniqueRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-735",_).
+acidejasmoniqueRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-735", N), N>2.    % Deux speciess, Polyporaceae et Talaromyces
 
 % Les "et"
 % --------

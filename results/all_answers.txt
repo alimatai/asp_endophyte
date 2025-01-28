@@ -1,0 +1,21 @@
+clingo version 5.7.1
+Reading from ...pe/all_recipe/all_recette_endophyte.lp
+Solving...
+Answer: 1
+selectedSpecies(aspergillus) selectedSpecies(cordycipitaceae) selectedSpecies(polyporaceae) selectedSpecies(pseudogymnoascus)
+Consequences: [4;28]
+Optimization: 4
+Answer: 2
+selectedSpecies(aspergillus) selectedSpecies(talaromyces) selectedSpecies(cordycipitaceae) selectedSpecies(polyporaceae) selectedSpecies(pseudeurotiaceae) selectedSpecies(pseudogymnoascus)
+Consequences: [6;26]
+Optimization: 3
+OPTIMUM FOUND
+
+Models       : 2
+  Brave      : yes
+  Optimum    : yes
+Optimization : 3
+Consequences : 6
+Calls        : 1
+Time         : 0.027s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.027s

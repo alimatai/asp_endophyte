@@ -31,34 +31,34 @@ ec("1.13.11.4").
 
 % Declare Models
 
-modele(alternaria).
-modele(aspergillaceae).
-modele(aspergillus).
-modele(bionectriaceae).
-modele(botrytis).
-modele(chaetomiaceae).
-modele(cordycipitaceae).
-modele(debaryomycetaceae).
-modele(didymellaceae).
-modele(didymosphaeriaceae).
-modele(fusarium).
-modele(fusariumoxysporum).
-modele(linnemannia).
-modele(mortierella).
-modele(mortierellaceae).
-modele(mucor).
-modele(mucoraceae).
-modele(mycosphaerellaceae).
-modele(nectriaceae).
-modele(penicillium).
-modele(plectosphaerellaceae).
-modele(pleosporaceae).
-modele(polyporaceae).
-modele(pseudeurotiaceae).
-modele(pseudogymnoascus).
-modele(talaromyces).
-modele(trichoderma).
-modele(trichosporonaceae).
+species(alternaria).
+species(aspergillaceae).
+species(aspergillus).
+species(bionectriaceae).
+species(botrytis).
+species(chaetomiaceae).
+species(cordycipitaceae).
+species(debaryomycetaceae).
+species(didymellaceae).
+species(didymosphaeriaceae).
+species(fusarium).
+species(fusariumoxysporum).
+species(linnemannia).
+species(mortierella).
+species(mortierellaceae).
+species(mucor).
+species(mucoraceae).
+species(mycosphaerellaceae).
+species(nectriaceae).
+species(penicillium).
+species(plectosphaerellaceae).
+species(pleosporaceae).
+species(polyporaceae).
+species(pseudeurotiaceae).
+species(pseudogymnoascus).
+species(talaromyces).
+species(trichoderma).
+species(trichosporonaceae).
 
 % Declare Annotations
 

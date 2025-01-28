@@ -6,3 +6,5 @@ python $path/ec_write_facts_in_lp.py
 
 cat $path/ec_facts.lp > $path/ec_recette_endophyte.lp
 cat $path/ec_rules.lp >> $path/ec_recette_endophyte.lp
+
+# clingo --enum-mode=brave $path/ec_recette_endophyte.lp

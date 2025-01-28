@@ -10,6 +10,7 @@ pwy("PWY-3161").
 pwy("PWY-5025").
 pwy("PWY-5026").
 pwy("TRPIAACAT-PWY").
+pwy("PWY-6406").
 pwy("PWY-8321").
 pwy("PWY-735").
 pwy("PWY-6183").
@@ -82,6 +83,7 @@ annotation(aspergillus, "PWY-3161", 1).
 annotation(aspergillus, "PWY-5025", 1).
 annotation(aspergillus, "PWY-5026", 1).
 annotation(aspergillus, "TRPIAACAT-PWY", 1).
+annotation(aspergillus, "PWY-6406", 2).
 annotation(aspergillus, "PWY-8321", 1).
 annotation(aspergillus, "PWY-735", 1).
 annotation(aspergillus, "PWY-6183", 1).
@@ -95,6 +97,7 @@ annotation(bionectriaceae, "PWY-3161", 1).
 annotation(bionectriaceae, "PWY-5025", 1).
 annotation(bionectriaceae, "PWY-5026", 1).
 annotation(bionectriaceae, "TRPIAACAT-PWY", 1).
+annotation(bionectriaceae, "PWY-6406", 1).
 annotation(bionectriaceae, "PWY-8321", 1).
 annotation(bionectriaceae, "PWY-6183", 1).
 annotation(bionectriaceae, "PWY-6640", 1).
@@ -108,6 +111,7 @@ annotation(botrytis, "PWY-3161", 1).
 annotation(botrytis, "PWY-5025", 1).
 annotation(botrytis, "PWY-5026", 1).
 annotation(botrytis, "TRPIAACAT-PWY", 1).
+annotation(botrytis, "PWY-6406", 1).
 annotation(botrytis, "PWY-8321", 1).
 annotation(botrytis, "PWY-735", 1).
 annotation(botrytis, "PWY-6183", 1).

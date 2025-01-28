@@ -9,13 +9,15 @@ facts = pd.read_csv(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/de
 	header=0,
 	sep=",")
 
-with open(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/deepimpact_analysis/WP2_analysis/asp_endophyte/asp_recipe/ec_recipe/ec_facts.lp"), "w") as lp:
+with open(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/deepimpact_analysis/WP2_analysis/asp_endophyte/asp_recipe/all_recipe/all_facts.lp"), "w") as lp:
 
 	# Declare EC
-	lp.write("% Declare EC\n\n")
+	lp.write("% Declare EC and pathways\n\n")
 	for col in facts.columns:
 		if "PWY" not in col:
 			lp.write(f"""ec("{col}").\n""") # col.replace(".", "-")
+		else:
+			lp.write(f"""pwy("{col}").\n""")
 	
 	# Declare models
 	lp.write("\n% Declare Models\n\n")
@@ -27,7 +29,10 @@ with open(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/deepimpact_a
 	for i in range(facts.shape[0]):
 		for j in range(facts.shape[1]):
 			value = facts.iloc[i, j]
-			if value not in [0, nan] and "PWY" not in facts.columns[j]:
-				lp.write(f"""annotation({facts.index[i].lower().replace(" ", "")}, "{facts.columns[j]}", {value}).\n""")
+			if value not in [0, nan]:
+				if "PWY" not in facts.columns[j]:
+					lp.write(f"""annotation({facts.index[i].lower().replace(" ", "")}, "{facts.columns[j]}", {value}).\n""")
+				elif "PWY" in facts.columns[j]:
+					lp.write(f"""annotation({facts.index[i].lower().replace(" ", "")}, "{facts.columns[j]}", {value[0]}).\n""")
 
 	lp.write("\n")

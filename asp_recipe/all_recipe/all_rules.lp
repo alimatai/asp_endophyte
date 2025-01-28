@@ -19,6 +19,9 @@
 
 % La règle (à gauche) est vraie si il existe (à droite) une espèce M qui est une selectedSpecies, species, avec une annotation de l'EC
 
+% EC
+% --
+
 cellulaseRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"3.2.1.91", N), N>1.    % remplacer _ par N et mettre N>2
 cellulaseRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"3.2.1.4", N), N>3.
 
@@ -53,8 +56,34 @@ acidejasmoniqueRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"2.3.1.
 acidejasmoniqueRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"1.3.1.42",_).
 acidejasmoniqueRule3(M) :- selectedSpecies(M), species(M) , annotation(M,"1.3.3.6",_).
 
+% Pathways
+% --------
+
+celluloseRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6784", N), N>1.
+celluloseRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6788", N), N>2.
+
+celluloseXylanRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6717", N), N>1.
+
+pectinRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-7248", N), N>2.
+
+galactanRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6807", N), N>5.
+
+auxineRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-581", N), N>3.
+auxineRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-3161", _).
+auxineRule3(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-5025", _).
+auxineRule4(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-5026", N), N=1.
+auxineRule5(M) :- selectedSpecies(M), species(M) , annotation(M,"TRPIAACAT-PWY", _).
+
+acidesalicyliqueRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6406", N), N>1. % une seule species, Aspergillus
+acidesalicyliqueRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-8321", _).      % Trois espèces
+
+acidejasmoniqueRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-735", N), N>2.    % Deux speciess, Polyporaceae et Talaromyces
+
 % Les "et"
 % ========
+
+% EC
+% --
 
 :- 0{cellulaseRule1(M):selectedSpecies(M)}0.    % il est faux d'avoir aucune selected species avec la cellulaseRule1.
 :- 0{cellulaseRule2(M):selectedSpecies(M)}0.    % il est faux d'avoir aucune selected species avec la cellulaseRule2.
@@ -83,14 +112,43 @@ acidejasmoniqueRule3(M) :- selectedSpecies(M), species(M) , annotation(M,"1.3.3.
 :- 0{acidejasmoniqueRule2(M):selectedSpecies(M)}0.
 :- 0{acidejasmoniqueRule3(M):selectedSpecies(M)}0.
 
+% Pathways
+% --------
+
+:- 0{celluloseRule1(M):selectedSpecies(M)}0.    % il est faux d'avoir aucune selected species avec la celluloseRule1.
+:- 0{celluloseRule2(M):selectedSpecies(M)}0.    % il est faux d'avoir aucune selected species avec la celluloseRule2.
+
+:- 0{celluloseXylanRule(M):selectedSpecies(M)}0.    % etc
+
+:- 0{pectinRule(M):selectedSpecies(M)}0.
+
+:- 0{galactanRule1(M):selectedSpecies(M)}0.
+
+:- 0{auxineRule1(M):selectedSpecies(M)}0.
+:- 0{auxineRule4(M):selectedSpecies(M)}0.
+
+:- 0{acidesalicyliqueRule1(M):selectedSpecies(M)}0.
+:- 0{acidesalicyliqueRule2(M):selectedSpecies(M)}0.
+
+:- 0{acidejasmoniqueRule(M):selectedSpecies(M)}0.
+
 % Les "ou"
 % ========
+
+% EC
+% --
 
 :- 0{pectinaseRule2(Tata):selectedSpecies(Tata); pectinaseRule3(Toto):selectedSpecies(Toto)}0.    % il est faux d'avoir aucune selectedSpecies avec la pectinaseRule2 ou la pectinaseRule3
 
 :- 0{xylanaseRule2(Tata):selectedSpecies(Tata); xylanaseRule3(Toto):selectedSpecies(Toto)}0.    % etc
 
 :- 0{galactanaseRule2(Tata):selectedSpecies(Tata); galactanaseRule3(Toto):selectedSpecies(Toto) ; galactanaseRule4(Tutu):selectedSpecies(Tutu)}0.
+
+% Pathways
+% --------
+
+ % il est faux d'avoir aucune selectedSpecies avec la auxineRule2 ou la auxineRule3 ou la auxineRule5
+:- 0{auxineRule2(Tata):selectedSpecies(Tata); auxineRule3(Toto):selectedSpecies(Toto); auxineRule5(Toto):selectedSpecies(Tutu)}0.
 
 % On veut minimiser le nombre de selectedSpecies sélectionnées
 % ============================================================

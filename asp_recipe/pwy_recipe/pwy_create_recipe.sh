@@ -6,3 +6,5 @@ python $path/pwy_write_facts_in_lp.py
 
 cat $path/pwy_facts.lp > $path/pwy_recette_endophyte.lp
 cat $path/pwy_rules.lp >> $path/pwy_recette_endophyte.lp
+
+# clingo --enum-mode=brave $path/pwy_recette_endophyte.lp
