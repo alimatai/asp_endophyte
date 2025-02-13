@@ -11,13 +11,13 @@ facts = pd.read_csv(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/de
 
 with open(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/deepimpact_analysis/WP2_analysis/asp_endophyte/asp_recipe/all_recipe/all_facts.lp"), "w") as lp:
 
-	# Declare EC
-	lp.write("% Declare EC and pathways\n\n")
-	for col in facts.columns:
-		if "PWY" not in col:
-			lp.write(f"""ec("{col}").\n""") # col.replace(".", "-")
-		else:
-			lp.write(f"""pwy("{col}").\n""")
+	# Declare EC and pathways
+	# lp.write("% Declare EC and pathways\n\n")
+	# for col in facts.columns:
+	# 	if "PWY" not in col:
+	# 		lp.write(f"""ec("{col}").\n""") # col.replace(".", "-")
+	# 	else:
+	# 		lp.write(f"""pwy("{col}").\n""")
 	
 	# Declare models
 	lp.write("\n% Declare Models\n\n")
