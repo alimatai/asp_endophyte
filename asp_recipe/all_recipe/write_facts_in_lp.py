@@ -9,7 +9,7 @@ facts = pd.read_csv(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/de
 	header=0,
 	sep=",")
 
-with open(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/deepimpact_analysis/WP2_analysis/asp_endophyte/asp_recipe/all_recipe/all_facts.lp"), "w") as lp:
+with open(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/deepimpact_analysis/WP2_analysis/asp_endophyte/asp_recipe/all_recipe/facts.lp"), "w") as lp:
 
 	# Declare EC and pathways
 	# lp.write("% Declare EC and pathways\n\n")

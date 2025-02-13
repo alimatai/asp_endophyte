@@ -2,17 +2,8 @@
 % ==============================
 
 % Il existe des selected species entre 1 et le nombre maximal d'espèces = une solution satisfiable est constituee d'un sous-ensemble de modèles
+
 1{ selectedSpecies(M) : species(M) }.
-
-% Commentaires :
-
-% En fait ça fait ça et ça "pioche" dedans:
-% 1{ selectedSpecies(alternaria); selectedSpecies(aspergillaceae); selectedSpecies(aspergillus)  }3.
-
-% Autres exemples :
-% 0{ selectedSpecies(M) : species(M) }3. % Entre 0 et 3
-% 1{ selectedSpecies(M) : species(M) }1. % Une seule espèce
-% K{ selectedSpecies(M) : species(M) }M.
 
 % Regles
 % ======
@@ -22,7 +13,7 @@
 % EC
 % --
 
-cellulaseRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"3.2.1.91", N), N>1. % remplacer _ par N et mettre N>2
+cellulaseRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"3.2.1.91", N), N>1.
 cellulaseRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"3.2.1.4", N), N>3.
 
 hemicellulaseRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"3.1.1.73", N), N>2.
@@ -49,8 +40,8 @@ auxineRule5(M) :- selectedSpecies(M), species(M) , annotation(M,"4.1.1.28",_).
 auxineRule6(M) :- selectedSpecies(M), species(M) , annotation(M,"2.6.1.1",_).
 auxineRule7(M) :- selectedSpecies(M), species(M) , annotation(M,"2.6.1.27",_).
 
-acidesalicyliqueRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"4.2.99.21",_).
-acidesalicyliqueRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"5.4.4.2",_).
+acidesalicyliqueRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"4.2.99.21",_). % une seule species, Aspergillus
+acidesalicyliqueRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"5.4.4.2",_). % Trois species
 
 acidejasmoniqueRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"2.3.1.16",_).
 acidejasmoniqueRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"1.3.1.42",_).
@@ -76,8 +67,7 @@ auxinePRule5(M) :- selectedSpecies(M), species(M) , annotation(M,"TRPIAACAT-PWY"
 
 acidesalicyliquePRule1(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-6406", N), N>1. % une seule species, Aspergillus
 acidesalicyliquePRule2(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-8321", _). % Trois species
-
-acidejasmoniquePRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-735", N), N>2. % Deux species, Polyporaceae et Talaromyces
+acidejasmoniquePRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-735", N), N>2.
 
 % Les "et"
 % ========
@@ -86,7 +76,7 @@ acidejasmoniquePRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-73
 % --
 
 :- 0{cellulaseRule1(M):selectedSpecies(M)}0. % il est faux d'avoir aucune selected species avec la cellulaseRule1.
-:- 0{cellulaseRule2(M):selectedSpecies(M)}0. 
+:- 0{cellulaseRule2(M):selectedSpecies(M)}0.
 
 :- 0{hemicellulaseRule1(M):selectedSpecies(M)}0.
 :- 0{hemicellulaseRule2(M):selectedSpecies(M)}0.
@@ -116,7 +106,7 @@ acidejasmoniquePRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-73
 % --------
 
 :- 0{celluloseRule1(M):selectedSpecies(M)}0. % il est faux d'avoir aucune selected species avec la celluloseRule1.
-:- 0{celluloseRule2(M):selectedSpecies(M)}0.
+:- 0{celluloseRule2(M):selectedSpecies(M)}0. 
 
 :- 0{celluloseXylanRule(M):selectedSpecies(M)}0.
 
@@ -147,13 +137,13 @@ acidejasmoniquePRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-73
 % Pathways
 % --------
 
- % il est faux d'avoir aucune selectedSpecies avec la auxineRule2 ou la auxineRule3 ou la auxineRule5
+% il est faux d'avoir aucune selectedSpecies avec la auxineRule2 ou la auxineRule3 ou la auxineRule5
 :- 0{auxinePRule2(Tata):selectedSpecies(Tata); auxinePRule3(Toto):selectedSpecies(Toto); auxinePRule5(Toto):selectedSpecies(Tutu)}0.
 
 % On veut minimiser le nombre de selectedSpecies sélectionnées
 % ============================================================
 
-#minimize { 1,M : selectedSpecies(M) }.
+#minimize { 1,M : selectedSpecies(M) }. 
 
 % Affichage
 % =========
@@ -189,7 +179,7 @@ acidejasmoniquePRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-73
 
 % #show celluloseRule1/1.
 % #show celluloseRule2/1.
-% show celluloseXylanRule/1.
+% #show celluloseXylanRule/1.
 % #show pectinRule/1.
 % #show galactanRule/1.
 % #show auxinePRule1/1.
@@ -201,4 +191,4 @@ acidejasmoniquePRule(M) :- selectedSpecies(M), species(M) , annotation(M,"PWY-73
 % #show acidesalicyliquePRule2/1.
 % #show acidejasmoniquePRule/1.
 
-% --opt-mode=optN
+% ( --opt-mode=optN --enum-mode=brave )
