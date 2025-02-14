@@ -1,0 +1,40 @@
+clingo version 5.7.1
+Reading from ...ction_recipe/recette_endophyte_leaf.lp
+Solving...
+Answer: 1
+selectedSpecies("AF022-Bn-Y1-S2-LF-15F-01") selectedSpecies("AF084-Ta-Y1-S1-LF-4F-03") selectedSpecies("AF041-Bn-Y1-S1-LF-15F-01") selectedSpecies("AF019-Bn-Y1-S2-LF-1F-01")
+Optimization: 4
+Answer: 2
+selectedSpecies("AF043-Bn-Y1-S2-LF-4F-05") selectedSpecies("AF001-Bn-Y1-S2-LF-15F-05") selectedSpecies("AF014-Bn-Y1-S2-LF-1F-03")
+Optimization: 3
+Answer: 1
+selectedSpecies("AF043-Bn-Y1-S2-LF-4F-05") selectedSpecies("AF001-Bn-Y1-S2-LF-15F-05") selectedSpecies("AF014-Bn-Y1-S2-LF-1F-03")
+Consequences: [3;156]
+Optimization: 3
+Answer: 2
+selectedSpecies("AF043-Bn-Y1-S2-LF-4F-05") selectedSpecies("AF001-Bn-Y1-S2-LF-15F-05") selectedSpecies("AF084-Ta-Y1-S1-LF-4F-03") selectedSpecies("AF014-Bn-Y1-S2-LF-1F-03")
+Consequences: [4;156]
+Optimization: 3
+Answer: 3
+selectedSpecies("AF043-Bn-Y1-S2-LF-4F-05") selectedSpecies("AF003-Bn-Y1-S2-LF-4F-04") selectedSpecies("AF001-Bn-Y1-S2-LF-15F-05") selectedSpecies("AF084-Ta-Y1-S1-LF-4F-03") selectedSpecies("AF014-Bn-Y1-S2-LF-1F-03")
+Consequences: [5;155]
+Optimization: 3
+Answer: 4
+selectedSpecies("AF043-Bn-Y1-S2-LF-4F-05") selectedSpecies("AF003-Bn-Y1-S2-LF-4F-04") selectedSpecies("AF001-Bn-Y1-S2-LF-15F-05") selectedSpecies("AF084-Ta-Y1-S1-LF-4F-03") selectedSpecies("AF027-Bn-Y1-S2-LF-4F-04") selectedSpecies("AF014-Bn-Y1-S2-LF-1F-03")
+Consequences: [6;155]
+Optimization: 3
+Answer: 5
+selectedSpecies("AF043-Bn-Y1-S2-LF-4F-05") selectedSpecies("AF003-Bn-Y1-S2-LF-4F-04") selectedSpecies("AF001-Bn-Y1-S2-LF-15F-05") selectedSpecies("AF022-Bn-Y1-S2-LF-15F-01") selectedSpecies("AF084-Ta-Y1-S1-LF-4F-03") selectedSpecies("AF027-Bn-Y1-S2-LF-4F-04") selectedSpecies("AF014-Bn-Y1-S2-LF-1F-03")
+Consequences: [7;154]
+Optimization: 3
+OPTIMUM FOUND
+
+Models       : 7
+  Brave      : yes
+  Optimum    : yes
+  Optimal    : 5
+Optimization : 3
+Consequences : 7
+Calls        : 1
+Time         : 0.158s (Solving: 0.01s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.157s

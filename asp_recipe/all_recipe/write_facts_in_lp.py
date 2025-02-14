@@ -3,24 +3,22 @@
 import pandas as pd
 from pathlib import Path
 from numpy import nan
+import argparse
 
-facts = pd.read_csv(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/deepimpact_analysis/WP2_analysis/asp_endophyte/data/table_of_facts.csv"),
+parser = argparse.ArgumentParser()
+parser.add_argument("-f", "--facts", help="csv table models*EC-PWY (only the ones the user is interested in, table_of_facts.csv")
+parser.add_argument("-o", "--outfile", help="annotation written as lp facts (facts.lp)")
+args = parser.parse_args()
+
+facts = pd.read_csv(Path(args.facts),
 	index_col=0,
 	header=0,
 	sep=",")
 
-with open(Path("/home/vmataign/Documents/deepimpact/deepimpact_data/deepimpact_analysis/WP2_analysis/asp_endophyte/asp_recipe/all_recipe/facts.lp"), "w") as lp:
+with open(Path(args.outfile), "w") as lp:
 
-	# Declare EC and pathways
-	# lp.write("% Declare EC and pathways\n\n")
-	# for col in facts.columns:
-	# 	if "PWY" not in col:
-	# 		lp.write(f"""ec("{col}").\n""") # col.replace(".", "-")
-	# 	else:
-	# 		lp.write(f"""pwy("{col}").\n""")
-	
 	# Declare models
-	lp.write("\n% Declare Models\n\n")
+	lp.write("% Declare Models\n\n")
 	for idx in facts.index:
 		lp.write(f"""species({idx.lower().replace(" ", "")}).\n""")
 
