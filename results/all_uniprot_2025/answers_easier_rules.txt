@@ -1,0 +1,276 @@
+clingo version 5.7.1
+Reading from ...iprot_2025_recipe/recette_endophyte.lp
+Solving...
+Answer: 1
+selectedSpecies(mortierellaceae) selectedSpecies(pseudogymnoascus) selectedSpecies(trichoderma)
+Optimization: 3
+Answer: 1
+selectedSpecies(mortierella) selectedSpecies(hypoxylaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 2
+selectedSpecies(mortierella) selectedSpecies(fusariumoxysporum) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 3
+selectedSpecies(mortierella) selectedSpecies(bionectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 4
+selectedSpecies(mortierella) selectedSpecies(aspergillus) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 5
+selectedSpecies(mortierella) selectedSpecies(nectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 6
+selectedSpecies(mortierella) selectedSpecies(mycosphaerellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 7
+selectedSpecies(mortierella) selectedSpecies(pseudogymnoascus) selectedSpecies(didymosphaeriaceae)
+Optimization: 3
+Answer: 8
+selectedSpecies(mortierella) selectedSpecies(pseudogymnoascus) selectedSpecies(trichoderma)
+Optimization: 3
+Answer: 9
+selectedSpecies(mortierella) selectedSpecies(botrytis) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 10
+selectedSpecies(mortierella) selectedSpecies(aspergillaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 11
+selectedSpecies(mortierella) selectedSpecies(didymellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 12
+selectedSpecies(mortierella) selectedSpecies(fusarium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 13
+selectedSpecies(mortierella) selectedSpecies(penicillium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 14
+selectedSpecies(mortierella) selectedSpecies(alternaria) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 15
+selectedSpecies(mortierella) selectedSpecies(chaetomiaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 16
+selectedSpecies(mortierella) selectedSpecies(pleosporaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 17
+selectedSpecies(mortierella) selectedSpecies(polyporaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 18
+selectedSpecies(mortierella) selectedSpecies(pseudogymnoascus) selectedSpecies(talaromyces)
+Optimization: 3
+Answer: 19
+selectedSpecies(mucor) selectedSpecies(hypoxylaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 20
+selectedSpecies(linnemannia) selectedSpecies(hypoxylaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 21
+selectedSpecies(mortierellaceae) selectedSpecies(hypoxylaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 22
+selectedSpecies(mucoraceae) selectedSpecies(hypoxylaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 23
+selectedSpecies(mucor) selectedSpecies(aspergillus) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 24
+selectedSpecies(mucor) selectedSpecies(bionectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 25
+selectedSpecies(mucor) selectedSpecies(fusariumoxysporum) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 26
+selectedSpecies(mucor) selectedSpecies(nectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 27
+selectedSpecies(mucor) selectedSpecies(mycosphaerellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 28
+selectedSpecies(mucor) selectedSpecies(pseudogymnoascus) selectedSpecies(talaromyces)
+Optimization: 3
+Answer: 29
+selectedSpecies(mucor) selectedSpecies(pleosporaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 30
+selectedSpecies(mucor) selectedSpecies(penicillium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 31
+selectedSpecies(mucor) selectedSpecies(fusarium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 32
+selectedSpecies(mucor) selectedSpecies(didymellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 33
+selectedSpecies(mucor) selectedSpecies(chaetomiaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 34
+selectedSpecies(mucor) selectedSpecies(botrytis) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 35
+selectedSpecies(mucor) selectedSpecies(aspergillaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 36
+selectedSpecies(mucor) selectedSpecies(alternaria) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 37
+selectedSpecies(mucor) selectedSpecies(pseudogymnoascus) selectedSpecies(trichoderma)
+Optimization: 3
+Answer: 38
+selectedSpecies(mucor) selectedSpecies(pseudogymnoascus) selectedSpecies(didymosphaeriaceae)
+Optimization: 3
+Answer: 39
+selectedSpecies(linnemannia) selectedSpecies(aspergillus) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 40
+selectedSpecies(mortierellaceae) selectedSpecies(aspergillus) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 41
+selectedSpecies(mucoraceae) selectedSpecies(aspergillus) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 42
+selectedSpecies(linnemannia) selectedSpecies(fusariumoxysporum) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 43
+selectedSpecies(linnemannia) selectedSpecies(bionectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 44
+selectedSpecies(linnemannia) selectedSpecies(nectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 45
+selectedSpecies(linnemannia) selectedSpecies(mycosphaerellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 46
+selectedSpecies(linnemannia) selectedSpecies(fusarium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 47
+selectedSpecies(linnemannia) selectedSpecies(pleosporaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 48
+selectedSpecies(linnemannia) selectedSpecies(botrytis) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 49
+selectedSpecies(linnemannia) selectedSpecies(aspergillaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 50
+selectedSpecies(linnemannia) selectedSpecies(penicillium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 51
+selectedSpecies(linnemannia) selectedSpecies(alternaria) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 52
+selectedSpecies(linnemannia) selectedSpecies(didymellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 53
+selectedSpecies(linnemannia) selectedSpecies(pseudogymnoascus) selectedSpecies(talaromyces)
+Optimization: 3
+Answer: 54
+selectedSpecies(linnemannia) selectedSpecies(chaetomiaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 55
+selectedSpecies(linnemannia) selectedSpecies(pseudogymnoascus) selectedSpecies(trichoderma)
+Optimization: 3
+Answer: 56
+selectedSpecies(linnemannia) selectedSpecies(pseudogymnoascus) selectedSpecies(didymosphaeriaceae)
+Optimization: 3
+Answer: 57
+selectedSpecies(linnemannia) selectedSpecies(polyporaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 58
+selectedSpecies(mortierellaceae) selectedSpecies(fusariumoxysporum) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 59
+selectedSpecies(mucoraceae) selectedSpecies(fusariumoxysporum) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 60
+selectedSpecies(mortierellaceae) selectedSpecies(bionectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 61
+selectedSpecies(mucoraceae) selectedSpecies(bionectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 62
+selectedSpecies(mortierellaceae) selectedSpecies(nectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 63
+selectedSpecies(mortierellaceae) selectedSpecies(mycosphaerellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 64
+selectedSpecies(mortierellaceae) selectedSpecies(pseudogymnoascus) selectedSpecies(talaromyces)
+Optimization: 3
+Answer: 65
+selectedSpecies(mortierellaceae) selectedSpecies(chaetomiaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 66
+selectedSpecies(mortierellaceae) selectedSpecies(fusarium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 67
+selectedSpecies(mortierellaceae) selectedSpecies(pleosporaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 68
+selectedSpecies(mortierellaceae) selectedSpecies(alternaria) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 69
+selectedSpecies(mortierellaceae) selectedSpecies(botrytis) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 70
+selectedSpecies(mortierellaceae) selectedSpecies(didymellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 71
+selectedSpecies(mortierellaceae) selectedSpecies(aspergillaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 72
+selectedSpecies(mortierellaceae) selectedSpecies(penicillium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 73
+selectedSpecies(mortierellaceae) selectedSpecies(pseudogymnoascus) selectedSpecies(trichoderma)
+Optimization: 3
+Answer: 74
+selectedSpecies(mortierellaceae) selectedSpecies(pseudogymnoascus) selectedSpecies(didymosphaeriaceae)
+Optimization: 3
+Answer: 75
+selectedSpecies(mucoraceae) selectedSpecies(nectriaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 76
+selectedSpecies(mucoraceae) selectedSpecies(mycosphaerellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 77
+selectedSpecies(mucoraceae) selectedSpecies(penicillium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 78
+selectedSpecies(mucoraceae) selectedSpecies(chaetomiaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 79
+selectedSpecies(mucoraceae) selectedSpecies(fusarium) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 80
+selectedSpecies(mucoraceae) selectedSpecies(pleosporaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 81
+selectedSpecies(mucoraceae) selectedSpecies(alternaria) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 82
+selectedSpecies(mucoraceae) selectedSpecies(botrytis) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 83
+selectedSpecies(mucoraceae) selectedSpecies(didymellaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 84
+selectedSpecies(mucoraceae) selectedSpecies(aspergillaceae) selectedSpecies(pseudogymnoascus)
+Optimization: 3
+Answer: 85
+selectedSpecies(mucoraceae) selectedSpecies(pseudogymnoascus) selectedSpecies(talaromyces)
+Optimization: 3
+Answer: 86
+selectedSpecies(mucoraceae) selectedSpecies(pseudogymnoascus) selectedSpecies(trichoderma)
+Optimization: 3
+Answer: 87
+selectedSpecies(mucoraceae) selectedSpecies(pseudogymnoascus) selectedSpecies(didymosphaeriaceae)
+Optimization: 3
+OPTIMUM FOUND
+
+Models       : 88
+  Optimum    : yes
+  Optimal    : 87
+Optimization : 3
+Calls        : 1
+Time         : 0.020s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.020s
